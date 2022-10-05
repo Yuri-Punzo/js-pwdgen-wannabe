@@ -4,7 +4,7 @@ poi chiedi il suo cognome,
 poi chiedi il suo colore preferito
 Infine scrivi sulla pagina nomecognomecolorepreferito22 */
 
-
+alert("Ciao ! Creiamo insieme una password insicura !")
 
 let userName = prompt("Qual'é il tuo nome ?")
 let userSurname = prompt("Qual'é il tuo cognome ?")
