@@ -14,6 +14,6 @@ let userFavoriteColor = prompt("Qual'é il tuo colore preferito ?");
 const currentYear = "2022";
 const testo = "Ed ecco a te un'insicurissima password:";
 
-document.getElementById("testo").innerHTML = (`${testo}`);
+document.getElementById("testo").innerHTML = `${testo}`;
 
-document.getElementById("unreliable_pswrd").innerHTML = (`${userName}${userSurname}${userFavoriteColor}${currentYear}`);
+document.getElementById("unreliable_pswrd").innerHTML = `${userName}${userSurname}${userFavoriteColor}${currentYear}`;
