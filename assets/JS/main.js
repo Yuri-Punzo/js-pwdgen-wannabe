@@ -6,13 +6,12 @@ Infine scrivi sulla pagina nomecognomecolorepreferito22 */
 
 
 
-
-
 let userName = prompt("Qual'é il tuo nome ?")
 let userSurname = prompt("Qual'é il tuo cognome ?")
 let userFavoriteColor = prompt("Qual'é il tuo colore preferito ?")
 
 
 const currentYear = ("2022")
+const testo = ("Ecco un\'insicurissima password:")
 
-.getElementById("unreliable_pswrd").innerHTML = "userName"
+document.getElementById("unreliable_pswrd").innerHTML = (`${testo} ${userName}${userSurname}${userFavoriteColor}${currentYear}`)
