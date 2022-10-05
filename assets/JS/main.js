@@ -11,8 +11,8 @@ let userSurname = prompt("Qual'é il tuo cognome ?");
 let userFavoriteColor = prompt("Qual'é il tuo colore preferito ?");
 
 
-const currentYear = ("2022");
-const testo = ("Ed ecco a te un\'insicurissima password:");
+const currentYear = "2022";
+const testo = "Ed ecco a te un'insicurissima password:";
 
 document.getElementById("testo").innerHTML = (`${testo}`);
 
