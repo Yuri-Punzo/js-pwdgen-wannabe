@@ -12,6 +12,6 @@ let userFavoriteColor = prompt("Qual'é il tuo colore preferito ?")
 
 
 const currentYear = ("2022")
-const testo = ("Ecco un\'insicurissima password:")
+const testo = ("Ed ecco a te un\'insicurissima password:")
 
 document.getElementById("unreliable_pswrd").innerHTML = (`${testo} ${userName}${userSurname}${userFavoriteColor}${currentYear}`)
